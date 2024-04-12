@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora simple</title>
+</head>
+<style>
+	p {
+		display: flex;
+	}
+</style>
+
+<body>
+	<h1>Mi calculadora</h1>
+	<p id="resultado"></p>
+	<table>
+		<tbody>
+			<tr>
+				<td><button onclick="funcionNumero(7)">7</button></td>
+				<td><button onclick="funcionNumero(8)">8</button></td>
+				<td><button onclick="funcionNumero(9)">9</button></td>
+				<td><button onclick="funcionSumar('+')">+</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="funcionNumero(4)">4</button></td>
+				<td><button onclick="funcionNumero(5)">5</button></td>
+				<td><button onclick="funcionNumero(6)">6</button></td>
+				<td><button onclick="funcionRestar('-')">-</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="funcionNumero(1)">1</button></td>
+				<td><button onclick="funcionNumero(2)">2</button></td>
+				<td><button onclick="funcionNumero(3)">3</button></td>
+				<td><button onclick="funcionMultiplicar('*')"> x</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="funcionNumero(0)">0</button></td>
+				<td><button onclick="funcionDividir('/')"> /</button></td>
+				<td><button onclick="borrarCaracter()">C</button></td>
+				<td><button onclick="funcionResultado()">=</button></td>
+			</tr>
+		</tbody>
+
+	</table>
+
+
+	<script src="js.js"></script>
+</body>
+
+</html>
